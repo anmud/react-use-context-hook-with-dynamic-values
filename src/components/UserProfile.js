@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React  from 'react'
 import useDetailsHook from '../hooks/useDetailsHook'
 
 
@@ -6,7 +6,7 @@ import useDetailsHook from '../hooks/useDetailsHook'
 
 const UserProfile = () => {
 
-  const {setUserDetails, 
+  const { 
         updateInfo,
         name,
         dateOfBirth,
@@ -27,7 +27,7 @@ const UserProfile = () => {
    return updateInfo(name, value)
   }
 
-  console.log("set user details func", setUserDetails)
+ 
 
   return (
 
